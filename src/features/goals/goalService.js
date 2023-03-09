@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "/api/v1/goals/";
+const API_URL =
+  "https://my-diary-backend-netlify-production.up.railway.app/api/v1/goals/";
 
 // create new goal
 const createGoal = async (goalData, token) => {
